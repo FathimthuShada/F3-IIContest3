@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootsp Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootspcdn.com/bootsp/3.4.1/css/bootsp.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootspcdn.com/bootsp/3.4.1/js/bootsp.min.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="div1">
+        <h3>Teacher Portal</h3>
+    </div>
+    <div class="div2">
+        <div class="div3"><h3>Signup</h3></div>
+        <div class="div4"><h3>Login</h3></div>       
+    </div>
+</div>
+<div class="container">
+  <h2>Teacher's Signup</h2>
+  <form action="">
+    <div class="form-group">
+        <input type="text" class="form-control" id="name" placeholder="Full Name" name="name">
+      </div>
+    <div class="form-group">
+      <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd">
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" id="Cpwd" placeholder="Confirm password" name="Cpwd">
+    </div>
+    <button type="submit" onclick="saveData()" class="button">Signup</button>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
